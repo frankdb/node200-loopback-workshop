@@ -4,8 +4,10 @@ module.exports = {
     "connector": "memory"
   },
   "MongoDB": {
-    "url": "mongodb://localhost:27017",
+    "url": "process.env.MONGODB_URI",
     "name": "MongoDB",
     "connector": "mongodb"
   }
 }
+
+// mongodb://localhost:27017
